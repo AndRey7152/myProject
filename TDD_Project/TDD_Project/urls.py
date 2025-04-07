@@ -22,7 +22,6 @@ from blog import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('books.urls')),
-    path('rosetta/', include('rosetta.urls')),
     path('created/', views.CreatePostView.as_view(), name = 'post_created'),
     path('accounts/', include('django.contrib.auth.urls'))
 ]
