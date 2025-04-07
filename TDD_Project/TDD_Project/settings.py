@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'elibrary_app', # тестирование
     'blog', # разрешения
     'books', # htmx
-    'rosetta',
 ]
 
 MIDDLEWARE = [
